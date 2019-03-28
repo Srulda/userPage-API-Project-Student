@@ -7,6 +7,7 @@
 body {
     background-color: #ecf0f1;
     font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
 }
 
 .container {
@@ -21,10 +22,13 @@ body {
     grid-row: 1;
     grid-column: 1;
     font-size: 25px;
-    background-color: #3498db;
+    background-color: #8c94ac;
     padding: 1vmax;
     box-shadow: 1px 1px 3px black;
     border-bottom-right-radius: 4px;
+    -webkit-box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
+-moz-box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
+box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
 }
 
 .user-info {
@@ -68,12 +72,19 @@ body {
 .friends {
     grid-row: 3;
     grid-column: 3;
-    background-color: #3498db;
+    background-color: #8c94ac;
     font-size: 1.5vmax;
     color: #ecf0f1;
     border-top-left-radius: 4px;
     box-shadow: -1px -1px 3px black;
     padding-left: 1vmax;
+    border-radius: 20px 20px 99px 20px;
+-moz-border-radius: 20px 20px 99px 20px;
+-webkit-border-radius: 20px 20px 99px 20px;
+border: 0px solid #77507a;
+-webkit-box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
+-moz-box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
+box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
 }
 
 ul {
