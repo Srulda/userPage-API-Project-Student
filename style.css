@@ -78,9 +78,7 @@ box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
     border-top-left-radius: 4px;
     box-shadow: -1px -1px 3px black;
     padding-left: 1vmax;
-    border-radius: 20px 20px 99px 20px;
--moz-border-radius: 20px 20px 99px 20px;
--webkit-border-radius: 20px 20px 99px 20px;
+
 border: 0px solid #77507a;
 -webkit-box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
 -moz-box-shadow: 6px 6px 24px 15px rgba(134,191,209,0.8);
